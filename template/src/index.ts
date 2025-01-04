@@ -1,7 +1,2 @@
-export function greet(name: string): string {
-  return `Hello, ${name}! Welcome to TypeScript Stream project!`;
-}
-
-if (require.main === module) {
-  console.log(greet('Developer'));
-} 
+import { config } from './config';
+console.log(`Server running in ${config.nodeEnv} mode on port ${config.port}`);

@@ -1,6 +1,6 @@
 {
   "name": "@carmen0208/create-ts-project",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI tool to create TypeScript project",
   "main": "dist/cli.js",
   "bin": {
